@@ -1,0 +1,12 @@
+{
+    "parties" : [
+        { 
+            "individuals" : [
+                { "id" : "1"}
+            ],
+            "organisations" : [
+                { "id" : "1"}
+            ]
+        }
+    ]
+}
