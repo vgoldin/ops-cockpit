@@ -1,6 +1,17 @@
 {
     "customers" : [
         { 
+            "id" : "12",
+            "name" : "Plumery B.V.",
+            "isActive" : true,
+            "isSuspended" : false,
+            "type" : "Organisation",
+            "since" : "2024-01-01",
+            "users" : 1,
+            "owner" : "Ben Goldin",
+            "ownerEmail" : "ben.goldin@plumery.com"
+        },
+        { 
             "id" : "1",
             "name" : "Ben Goldin",
             "isActive" : true,
