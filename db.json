@@ -9,7 +9,9 @@
             "since" : "2024-01-01",
             "users" : 1,
             "owner" : "Ben Goldin",
-            "ownerEmail" : "ben.goldin@plumery.com"
+            "ownerEmail" : "ben.goldin@plumery.com",
+            "sourceSystemId" : "9a8b7c6d5-e4f3-a2b1-c0d9-e8f7a6b5c4d",
+            "sourceSystem" "MAMBU"
         },
         { 
             "id" : "1",
@@ -20,7 +22,9 @@
             "since" : "2024-01-01",
             "users" : 1,
             "owner" : "Ben Goldin",
-            "ownerEmail" : "ben.goldin@plumery.com"
+            "ownerEmail" : "ben.goldin@plumery.com",
+            "sourceSystemId" : "9a8b7c6d5-e4f3-a2b1-c0d9-e8f7a6b5c4d",
+            "sourceSystem" "MAMBU"
         },
         { 
             "id" : "2",
@@ -31,62 +35,92 @@
             "since" : "2024-02-01",
             "users" : 1,
             "owner" : "Alaina Simmons",
-            "ownerEmail" : "Alaina.Simmons@plumery.com"
+            "ownerEmail" : "Alaina.Simmons@plumery.com",
+            "sourceSystemId" : "9a8b7c6d5-e4f3-a2b1-c0d9-e8f7a6b5c4d",
+            "sourceSystem" "MAMBU"
         },
         { 
             "id" : "3",
             "name" : "Willow Hayes",
-            "isActive" : true,
-            "isSuspended" : false,
             "type" : "Individual",
             "since" : "2023-02-02",
             "users" : 1,
             "owner" : "Willow Hayes",
-            "ownerEmail" : "Willow.Hayes@plumery.com"
+            "ownerEmail" : "Willow.Hayes@plumery.com",
+            "sourceSystemId" : "9a8b7c6d5-e4f3-a2b1-c0d9-e8f7a6b5c4d",
+            "sourceSystem" "MAMBU"
         },
         { 
             "id" : "4",
             "name" : "Jazmyn Cabrera",
-            "isActive" : true,
-            "isSuspended" : false,
             "type" : "Individual",
             "since" : "2023-12-21",
             "users" : 1,
             "owner" : "Jazmyn Cabrera",
-            "ownerEmail" : "Jazmyn.Cabrera@plumery.com"
+            "ownerEmail" : "Jazmyn.Cabrera@plumery.com",
+            "sourceSystemId" : "9a8b7c6d5-e4f3-a2b1-c0d9-e8f7a6b5c4d",
+            "sourceSystem" "MAMBU"
         },
         { 
             "id" : "5",
             "name" : "Lilian Lara",
-            "isActive" : true,
-            "isSuspended" : false,
             "type" : "Individual",
             "since" : "2023-04-12",
             "users" : 1,
             "owner" : "Lilian Lara",
-            "ownerEmail" : "Lilian.Lara@plumery.com"
+            "ownerEmail" : "Lilian.Lara@plumery.com",
+            "sourceSystemId" : "9a8b7c6d5-e4f3-a2b1-c0d9-e8f7a6b5c4d",
+            "sourceSystem" "MAMBU"
         },
         { 
             "id" : "6",
             "name" : "Tate Garza",
-            "isActive" : true,
-            "isSuspended" : false,
             "type" : "Individual",
             "since" : "2023-05-23",
             "users" : 1,
             "owner" : "Tate Garza",
-            "ownerEmail" : "Tate.Garza@plumery.com"
+            "ownerEmail" : "Tate.Garza@plumery.com",
+            "sourceSystemId" : "9a8b7c6d5-e4f3-a2b1-c0d9-e8f7a6b5c4d",
+            "sourceSystem" "MAMBU"
         },
         { 
             "id" : "7",
             "name" : "Miracle Suarez",
-            "isActive" : true,
-            "isSuspended" : false,
             "type" : "Individual",
-            "since" : "2023-12-10",
+            "since" : "2023-12-10",            
             "users" : 1,
             "owner" : "Miracle Suarez",
-            "ownerEmail" : "Miracle.Suarez@plumery.com"
+            "ownerEmail" : "Miracle.Suarez@plumery.com",
+            "sourceSystemId" : "9a8b7c6d5-e4f3-a2b1-c0d9-e8f7a6b5c4d",
+            "sourceSystem" "MAMBU"
+        }
+    ],
+    "users" : [
+        {
+            "id" : 1, 
+            "fullName" : "Ben Goldin",
+            "isActive" : true,
+            "isSuspended" : false,
+            "language" : "en_US",
+            "email" : "ben.goldin@plumery.com",
+            "phone" : "+31632332333",
+            "kycStatus" : "Verified",
+            "kycUpdateDate" : "2024-01-01",
+            "partyId" : 12,
+            "tcVersion" : "1.0"
+        },
+        {  
+            "id" : 2,
+            "fullName" : "Danielle Cohen",
+            "isActive" : true,
+            "isSuspended" : false,
+            "language" : "en_US",
+            "email" : "danielle.cohen@plumery.com",
+            "phone" : "+31632332333",
+            "kycStatus" : "Verified",
+            "kycUpdateDate" : "2024-01-01",
+            "partyId" : 12,
+            "tcVersion" : "1.0"
         }
     ]
 }
