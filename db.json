@@ -11,7 +11,9 @@
             "owner" : "Ben Goldin",
             "ownerEmail" : "ben.goldin@plumery.com",
             "sourceSystemId" : "9a8b7c6d5-e4f3-a2b1-c0d9-e8f7a6b5c4d",
-            "sourceSystem" : "MAMBU"
+            "sourceSystem" : "MAMBU",
+            "kycStatus" : "Verified",
+            "kycUpdateDate" : "2024-01-01",
         },
         { 
             "id" : "1",
@@ -24,7 +26,9 @@
             "owner" : "Ben Goldin",
             "ownerEmail" : "ben.goldin@plumery.com",
             "sourceSystemId" : "9a8b7c6d5-e4f3-a2b1-c0d9-e8f7a6b5c4d",
-            "sourceSystem" : "MAMBU"
+            "sourceSystem" : "MAMBU",
+            "kycStatus" : "Verified",
+            "kycUpdateDate" : "2024-01-01",
         },
         { 
             "id" : "2",
@@ -37,7 +41,9 @@
             "owner" : "Alaina Simmons",
             "ownerEmail" : "Alaina.Simmons@plumery.com",
             "sourceSystemId" : "9a8b7c6d5-e4f3-a2b1-c0d9-e8f7a6b5c4d",
-            "sourceSystem" : "MAMBU"
+            "sourceSystem" : "MAMBU",
+            "kycStatus" : "Verified",
+            "kycUpdateDate" : "2024-01-01",
         },
         { 
             "id" : "3",
@@ -48,7 +54,9 @@
             "owner" : "Willow Hayes",
             "ownerEmail" : "Willow.Hayes@plumery.com",
             "sourceSystemId" : "9a8b7c6d5-e4f3-a2b1-c0d9-e8f7a6b5c4d",
-            "sourceSystem" : "MAMBU"
+            "sourceSystem" : "MAMBU",
+            "kycStatus" : "Verified",
+            "kycUpdateDate" : "2024-01-01",
         },
         { 
             "id" : "4",
@@ -59,7 +67,9 @@
             "owner" : "Jazmyn Cabrera",
             "ownerEmail" : "Jazmyn.Cabrera@plumery.com",
             "sourceSystemId" : "9a8b7c6d5-e4f3-a2b1-c0d9-e8f7a6b5c4d",
-            "sourceSystem" : "MAMBU"
+            "sourceSystem" : "MAMBU",
+            "kycStatus" : "Verified",
+            "kycUpdateDate" : "2024-01-01",
         },
         { 
             "id" : "5",
@@ -70,7 +80,9 @@
             "owner" : "Lilian Lara",
             "ownerEmail" : "Lilian.Lara@plumery.com",
             "sourceSystemId" : "9a8b7c6d5-e4f3-a2b1-c0d9-e8f7a6b5c4d",
-            "sourceSystem" : "MAMBU"
+            "sourceSystem" : "MAMBU",
+            "kycStatus" : "Verified",
+            "kycUpdateDate" : "2024-01-01",
         },
         { 
             "id" : "6",
@@ -81,7 +93,9 @@
             "owner" : "Tate Garza",
             "ownerEmail" : "Tate.Garza@plumery.com",
             "sourceSystemId" : "9a8b7c6d5-e4f3-a2b1-c0d9-e8f7a6b5c4d",
-            "sourceSystem" : "MAMBU"
+            "sourceSystem" : "MAMBU",
+            "kycStatus" : "Verified",
+            "kycUpdateDate" : "2024-01-01",
         },
         { 
             "id" : "7",
@@ -92,7 +106,9 @@
             "owner" : "Miracle Suarez",
             "ownerEmail" : "Miracle.Suarez@plumery.com",
             "sourceSystemId" : "9a8b7c6d5-e4f3-a2b1-c0d9-e8f7a6b5c4d",
-            "sourceSystem" : "MAMBU"
+            "sourceSystem" : "MAMBU",
+            "kycStatus" : "Verified",
+            "kycUpdateDate" : "2024-01-01",
         }
     ],
     "users" : [
@@ -104,8 +120,6 @@
             "language" : "en_US",
             "email" : "ben.goldin@plumery.com",
             "phone" : "+31632332333",
-            "kycStatus" : "Verified",
-            "kycUpdateDate" : "2024-01-01",
             "partyId" : 12,
             "tcVersion" : "1.0"
         },
@@ -117,8 +131,6 @@
             "language" : "en_US",
             "email" : "danielle.cohen@plumery.com",
             "phone" : "+31632332333",
-            "kycStatus" : "Verified",
-            "kycUpdateDate" : "2024-01-01",
             "partyId" : 12,
             "tcVersion" : "1.0"
         }
