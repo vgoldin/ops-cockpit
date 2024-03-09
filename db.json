@@ -1,12 +1,15 @@
 {
-    "parties" : [
+    "customers" : [
         { 
-            "individuals" : [
-                { "id" : "1"}
-            ],
-            "organisations" : [
-                { "id" : "1"}
-            ]
+            "id" : "1",
+            "name" : "Ben Goldin",
+            "isActive" : true,
+            "isSuspended" : false,
+            "type" : "Individual",
+            "since" : "2024-01-01",
+            "users" : 1,
+            "owner" : "Ben Goldin",
+            "ownerEmail" : "ben.goldin@plumery.com"
         }
     ]
 }
