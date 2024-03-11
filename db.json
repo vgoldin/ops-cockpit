@@ -142,5 +142,16 @@
             "partyId" : 12,
             "tcVersion" : "1.0"
         }
+    ],
+    "sessions" : [
+        {
+            "userId" : "1",
+            "id" : "01ARZ3NDEKTSV4RRFFQ69G5FAV",
+            "device" : "Intel Mac OS X",
+            "userAgent" : "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "ipV4" : "95.93.114.25",
+            "ipV6" : "2a01:11:8b40:75a0:385f:783f:64ec:159e",
+            "location" : "Parede, Lisbon, Portugal"
+        }
     ]
 }
