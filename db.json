@@ -118,6 +118,18 @@
             "partyId" : 12,
             "tcVersion" : "1.0"
         },
+        {
+            "id" : 1, 
+            "fullName" : "Ben Goldin",
+            "isActive" : true,
+            "isSuspended" : false,
+            "isOwner" : true,
+            "language" : "en_US",
+            "email" : "ben.goldin@plumery.com",
+            "phone" : "+31632332333",
+            "partyId" : 1,
+            "tcVersion" : "1.0"
+        },
         {  
             "id" : 2,
             "fullName" : "Danielle Cohen",
