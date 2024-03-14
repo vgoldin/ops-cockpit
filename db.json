@@ -153,5 +153,27 @@
             "ipV6" : "2a01:11:8b40:75a0:385f:783f:64ec:159e",
             "location" : "Parede, Lisbon, Portugal"
         }
+    ],
+    "notifications" : [
+        {
+            "id" : "1",
+            "event" : "accounts.event.account-opened",
+            "priority" : "MEDIUM",
+            "channels" : [
+                {
+                    "SMS" : {
+                        "templates" : [
+                            {
+                                "en_EN" : {
+                                    "title" : "123",
+                                    "body" : "123"
+                                }
+                            }
+                        ],
+                        "category" : "transactions"
+                    }
+                }
+            ]
+        }
     ]
 }
