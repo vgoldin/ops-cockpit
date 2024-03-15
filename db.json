@@ -193,7 +193,10 @@
                             "body" : "Transaction executed of {{ transactionAmount.amount }}"
                         }
                     ]
-                }
+                },
+                "email" : {},
+                "push" : {},
+                "inapp" : {}   
             }
         },
         {
@@ -220,7 +223,10 @@
                             "body" : "Votre code OTP est {{ otpCode }}"
                         }
                     ]
-                }
+                },
+                "email" : {},
+                "sms" : {},
+                "inapp" : {}   
             }
         },
         {
@@ -237,7 +243,10 @@
                             "body" : "Hi {{ firstName }}, you asked us to update the phone number on your account, which we are doing right now.\r\nWe won't use this number to contact you about our services anymore.\r\nIf you didn't make this request, or if you have any questions, get in touch with us."
                         }
                     ]
-                }
+                },
+                "email" : {},
+                "push" : {},
+                "inapp" : {}   
             }
         }
     ]
