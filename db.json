@@ -160,21 +160,85 @@
             "event" : "accounts.event.account-opened",
             "priority" : "MEDIUM",
             "enabled" : true,
-            "channels" : 
-                {
-                 "sms" : 
+            "channels" : {
+                "sms" : 
                     {
                         "templates" : [
                             {
                                 "id" : "1",
                                 "language" : "en_US",
                                 "title" : "123",
-                                "body" : "123"
+                                "body" : "Dear {{ firstName }}, welcome to New Bank \uD83C\uDF89 We are thrilled to inform you that your\r\n          bank account has been approved. Thank you for choosing us as your financial partner.\r\n          \r\n          Your new account:\r\n          Account Type: {{ cashAccountType }}\r\n          Account IBAN: {{ iban }}\r\n          \r\n          Get started with your new account https:\/\/plumery.com"
                             }
                         ],
                         "category" : "transactions"
-                    }
+                    },
+                 "email" : {},
+                 "push" : {},
+                 "inapp" : {}    
+            }
+        },
+        {
+            "id" : "2",
+            "event" : "transactions.event.transaction-executed",
+            "priority" : "MEDIUM",
+            "enabled" : true,
+            "channels" : {
+                "push" : {
+                    "templates" : [
+                        {
+                            "id" : 1,
+                            "language" : "en_US",
+                            "title" : "{{ transactionId }}",
+                            "body" : "Transaction executed of {{ transactionAmount.amount }}"
+                        }
+                    ]
                 }
+            }
+        },
+        {
+            "id" : "3",
+            "event" : "notifications.command.send-otp-sms",
+            "priority" : "HIGH",
+            "enabled" : true,
+            "channels" : {
+                "push" : {
+                    "templates" : [
+                        {
+                            "id" : 1,
+                            "language" : "en_US",
+                            "body" : "Your OTP code is {{ otpCode }}"
+                        },
+                        {
+                            "id" : 2,
+                            "language" : "es_ES",
+                            "body" : "Su código OTP es {{ otpCode }}"
+                        },
+                        {
+                            "id" : 3,
+                            "language" : "fr_FR",
+                            "body" : "Votre code OTP est {{ otpCode }}"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id" : 4,
+            "event" : "notifications.command.notify-phone-number-update",
+            "priority" : "HIGH",
+            "enabled" : true,
+            "channels" : {
+                "sms" : {
+                    "templates" : [
+                        {
+                            "id" : 1,
+                            "language" : "en_US",
+                            "body" : "Hi {{ firstName }}, you asked us to update the phone number on your account, which we are doing right now.\r\nWe won't use this number to contact you about our services anymore.\r\nIf you didn't make this request, or if you have any questions, get in touch with us."
+                        }
+                    ]
+                }
+            }
         }
     ]
 }
