@@ -173,9 +173,9 @@
                         ],
                         "category" : "transactions"
                     },
-                 "email" : {},
-                 "push" : {},
-                 "inapp" : {}    
+                 "email" : {"templates" : []},
+                 "push" : {"templates" : []},
+                 "inapp" : {"templates" : []}    
             }
         },
         {
@@ -194,9 +194,9 @@
                         }
                     ]
                 },
-                "email" : {},
-                "sms" : {},
-                "inapp" : {}   
+                "email" : {"templates" : []},
+                "sms" : {"templates" : []},
+                "inapp" : {"templates" : []}
             }
         },
         {
@@ -224,9 +224,9 @@
                         }
                     ]
                 },
-                "email" : {},
-                "sms" : {},
-                "inapp" : {}   
+                "email" : {"templates" : []},
+                "sms" : {"templates" : []},
+                "inapp" : {"templates" : []}
             }
         },
         {
@@ -244,9 +244,9 @@
                         }
                     ]
                 },
-                "email" : {},
-                "push" : {},
-                "inapp" : {}   
+                "email" : {"templates" : []},
+                "push" : {"templates" : []},
+                "inapp" : {"templates" : []}
             }
         }
     ]
