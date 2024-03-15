@@ -160,9 +160,10 @@
             "event" : "accounts.event.account-opened",
             "priority" : "MEDIUM",
             "enabled" : true,
-            "channels" : [
+            "channels" : 
                 {
-                    "SMS" : {
+                 "sms" : 
+                    {
                         "templates" : [
                             {
                                 "en_US" : {
@@ -174,7 +175,6 @@
                         "category" : "transactions"
                     }
                 }
-            ]
         }
     ]
 }
