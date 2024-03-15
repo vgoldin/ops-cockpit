@@ -166,10 +166,10 @@
                     {
                         "templates" : [
                             {
-                                "en_US" : {
-                                    "title" : "123",
-                                    "body" : "123"
-                                }
+                                "id" : "1",
+                                "language" : "en_US",
+                                "title" : "123",
+                                "body" : "123"
                             }
                         ],
                         "category" : "transactions"
