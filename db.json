@@ -159,12 +159,13 @@
             "id" : "1",
             "event" : "accounts.event.account-opened",
             "priority" : "MEDIUM",
+            "enabled" : true,
             "channels" : [
                 {
                     "SMS" : {
                         "templates" : [
                             {
-                                "en_EN" : {
+                                "en_US" : {
                                     "title" : "123",
                                     "body" : "123"
                                 }
